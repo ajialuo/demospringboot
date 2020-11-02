@@ -136,7 +136,7 @@
         </pluginRepository>
     </pluginRepositories>
 
-    <distributionManagement>
+    <!--<distributionManagement>
         <repository>
             <id>maven-releases</id>
             <url>http://maven.e-cology.com.cn/repository/maven-releases/</url>
@@ -145,7 +145,7 @@
             <id>maven-snapshots</id>
             <url>http://maven.e-cology.com.cn/repository/maven-snapshots/</url>
         </snapshotRepository>
-    </distributionManagement>
+    </distributionManagement>-->
 
     <build>
         <defaultGoal>install</defaultGoal>

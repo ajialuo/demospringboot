@@ -12,6 +12,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.util.LinkedHashMap;
+
 @SpringBootApplication
 @EnableDiscoveryClient
 @Controller
@@ -30,6 +32,15 @@ public class DemospringbootApplication {
     @RequestMapping("/hi")
     public String get(Model model){
         model.addAttribute("msg","hi: "+hello);
+        LinkedHashMap map = new LinkedHashMap<>();
+        map.put("A","1");
+        map.put("B","2");
+        map.put("C","3");
+        map.put("D","4");
+        System.out.println(map);
+
+        map.put("B","55");
+        System.out.println(map);
         return "index";
     }
 
