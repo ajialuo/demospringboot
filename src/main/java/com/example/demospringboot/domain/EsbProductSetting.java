@@ -12,7 +12,7 @@ import javax.persistence.Id;
  * @version E9
  * @Package com.example.demospringboot.domain
  * @date 2020/10/16 17:55
- * @Copyright (c) 2001-2019 上海泛微网络科技股份有限公司
+ *
  */
 
 @Entity(name = "esb_product_setting")

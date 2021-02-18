@@ -14,7 +14,7 @@ import java.util.List;
  * @version E9
  * @Package com.example.demospringboot.service.impl
  * @date 2020/10/16 18:22
- * @Copyright (c) 2001-2019 上海泛微网络科技股份有限公司
+ *
  */
 @Service
 public class ProductServiceImpl implements IProductService {

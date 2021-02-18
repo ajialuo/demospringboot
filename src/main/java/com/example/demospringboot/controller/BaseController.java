@@ -15,7 +15,7 @@ import java.util.List;
  * @version E9
  * @Package com.example.demospringboot.controller
  * @date 2020/10/16 11:06
- * @Copyright (c) 2001-2019 上海泛微网络科技股份有限公司
+ *
  */
 @RestController
 @RequestMapping("/api/base")
